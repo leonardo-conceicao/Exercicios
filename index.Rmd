@@ -1,0 +1,33 @@
+---
+title: "R Notebook"
+output: html_document
+---
+
+
+```{r}
+library(gapminder)
+```
+
+```{r}
+df <- gapminder
+```
+
+
+```{r}
+head(df)
+```
+
+```{r}
+nrow(df)
+```
+
+```{r}
+#gapminder %>%
+ # select(year) %>%
+#  unique() %>%
+ # nrow()
+
+```
+
+
+
